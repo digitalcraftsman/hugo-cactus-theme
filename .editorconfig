@@ -13,5 +13,8 @@ trim_trailing_whitespace = true
 [*.md]
 trim_trailing_whitespace = false
 
+[*.html]
+insert_final_newline = false
+
 [*.{html,css,js,yaml,toml,json}]
 indent_size = 4
