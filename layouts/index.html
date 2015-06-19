@@ -8,18 +8,9 @@
         <a href='/about'>About </a>
         <a class="cta" href="/feed.xml">Subscribe</a>
     </nav>
-    <div class="profile">
-        <section id="wrapper">
-            <header id="header">
-                <a href='/about'>
-                    <img id="avatar" class="2x" src="{{ .Site.BaseURL }}images/profile.png" />
-                </a>
-                <h1>Nick Balestra</h1>
-                <!-- <h2>Software engineer</h2> -->
-                <h2>Try. Fail. Learn. Repeat. </h2>
-            </header>
-        </section>
-    </div>
+
+    {{ partial "profile.html" . }}
+
     <section id="wrapper" class="home">
         <ul id="post-list">
             <li>
