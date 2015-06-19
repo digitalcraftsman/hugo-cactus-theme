@@ -12,74 +12,10 @@
     {{ partial "profile.html" . }}
 
     <section id="wrapper" class="home">
-        <ul id="post-list">
-            <li>
-                <a href='/2015/javascript-functional-libraries/'>
-                    <aside class="dates">Jun 13</aside>
-                </a>
-                <a href='/2015/javascript-functional-libraries/'>JS Functional Programming Libraries <h2>From underscore to lodash and Ramda, from chaining to composition and auto-currying</h2></a>
-            </li>
-            <li>
-                <a href='/2015/Kactus/'>
-                    <aside class="dates">Jun 11</aside>
-                </a>
-                <a href='/2015/Kactus/'>Kactus for Jekyll <h2>A theme for Jekyll</h2></a>
-            </li>
-            <li>
-                <a href='/2015/IIFE/'>
-                    <aside class="dates">Jun 08</aside>
-                </a>
-                <a href='/2015/IIFE/'>The IIFE pattern <h2>Immediately-Invoked Function Expression</h2></a>
-            </li>
-            <li>
-                <a href='/2015/truthy-and-falsy/'>
-                    <aside class="dates">Jun 07</aside>
-                </a>
-                <a href='/2015/truthy-and-falsy/'>Truthy and falsy values <h2>When non-boolean values are coerced to booleans</h2></a>
-            </li>
-            <li>
-                <a href='/2015/prime-algos/'>
-                    <aside class="dates">May 25</aside>
-                </a>
-                <a href='/2015/prime-algos/'>Trial division, Sieve of Eratosthenes and Factorization Wheel <h2>A short post on prime algorithms</h2></a>
-            </li>
-            <li>
-                <a href='/2015/using-every-to-return-some/'>
-                    <aside class="dates">May 15</aside>
-                </a>
-                <a href='/2015/using-every-to-return-some/'>Using every() to return some() <h2>Functional programming helpers</h2></a>
-            </li>
-            <li>
-                <a href='/2015/jekyll-on-github-quick-guide/'>
-                    <aside class="dates">May 10</aside>
-                </a>
-                <a href='/2015/jekyll-on-github-quick-guide/'>Jekyll on Github - Quick guide <h2>Static site generator for Github pages</h2></a>
-            </li>
-            <li>
-                <a href='/2015/hackbot-a-js-robot-for-the-browser/'>
-                    <aside class="dates">Jan 26</aside>
-                </a>
-                <a href='/2015/hackbot-a-js-robot-for-the-browser/'>Hackbot - A js robot for the browser <h2>A fully programmable bot, modeled after Hubot.js</h2></a>
-            </li>
-            <li>
-                <a href='/2015/intro-js-onboarding-api/'>
-                    <aside class="dates">Jan 25</aside>
-                </a>
-                <a href='/2015/intro-js-onboarding-api/'>Intro.js onboarding API <h2>My contribute for a better onboarding script</h2></a>
-            </li>
-            <li>
-                <a href='/2015/javascripts-lexical-scope-hoisting-and-closures-without-mystery/'>
-                    <aside class="dates">Jan 17</aside>
-                </a>
-                <a href='/2015/javascripts-lexical-scope-hoisting-and-closures-without-mystery/'>JavaScript’s lexical scope, hoisting and closures without mystery <h2>Understanding the Javascript language mechanics</h2></a>
-            </li>
-        </ul>
-
-        {{ partial "footer.html" . }}
-
+        {{ partial "post-list.html" . }}
+        {{ partial "footer.html"    . }}
     </section>
 
-        {{ partial "js.html" . }}
-
+    {{ partial "js.html" . }}
     </body>
 </html>
