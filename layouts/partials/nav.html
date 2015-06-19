@@ -1,0 +1,9 @@
+<nav class="main-nav">
+    <!-- TODO: Show link only if current page is NOT home -->
+    <a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>Home</a>
+
+    <!-- TODO: If .PermaLink == /about then don't show this link -->
+    <a href='{{ .Site.BaseURL }}about'>About</a>
+    <!-- TODO: Add link to RSS feed -->
+    <a class="cta" href="{{ .Site.BaseURL }}feed.xml">Subscribe</a>
+</nav>
