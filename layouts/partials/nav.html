@@ -1,12 +1,12 @@
 <nav class="main-nav">
-    <!-- TODO: Show link only if current page is NOT home -->
     {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
     {{ if ne $url "" }}
         <a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>Home</a>
     {{ end }}
 
-    <!-- TODO: If .PermaLink == /about then don't show this link -->
-    <a href='{{ .Site.BaseURL }}about'>About</a>
-    <!-- TODO: Add link to RSS feed -->
+    {{ if ne $url "about/" }}
+        <a href='{{ .Site.BaseURL }}about'>About</a>
+    {{ end }}
+
     <a class="cta" href="{{ .Site.BaseURL }}index.xml">Subscribe</a>
 </nav>
