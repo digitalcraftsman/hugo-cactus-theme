@@ -29,6 +29,10 @@
                 </section>
             </footer>
 
+            {{ if gt (len .Site.Params.disqusShortname) 0 }}
+                {{ partial "disqus.html" . }}
+            {{ end }}
+
             <ul id="post-list" class="archive readmore">
                 <h3>Read more</h3>
                 {{ range first 10 .Site.Pages }}
