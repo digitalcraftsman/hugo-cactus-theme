@@ -29,7 +29,7 @@
                 </section>
             </footer>
 
-            {{ if gt (len .Site.Params.disqusShortname) 0 }}
+            {{ if isset .Site.Params "disqusShortname" }}
                 {{ partial "disqus.html" . }}
             {{ end }}
 
