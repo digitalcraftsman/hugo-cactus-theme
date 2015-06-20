@@ -1,21 +1,24 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/spf13/hugoThemes#themetoml for an example
-
-name = "Copy"
+name = "Hugo Cactus Theme"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://siteforthistheme.com/"
-tags = ["", ""]
-features = ["", ""]
+licenselink = "//github.com/digitalcraftsman/hugo-cactus-theme/blob/master/License.md"
+description = "A minimalistic and responsive theme for bloggers."
+homepage = "//github.com/digitalcraftsman/hugo-cactus-theme"
+tags = ["blog"]
+features = ["disqus", "rss", "syntax highlighting", "pagination", "sharing options"]
 min_version = 0.13
 
 [author]
-  name = ""
-  homepage = ""
+  name = "digitalcraftsman"
+  homepage = "//github.com/digitalcraftsman"
 
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+[[original]]
+  # Ported the stardard theme of the Cactus for Mac static site generator to Jekyll
+  name = "Nick Balestra"
+  homepage = "//nick.balestra.ch/"
+  repo = "//github.com/nickbalestra/kactus"
+
+[[original]]
+  # Original creators of the stardard theme for the Cactus for Mac static site generator
+  name = "Cactus for Mac authors"
+  homepage = "//cactusformac.com"
+  repo = "github.com/koenbok/Cactus"
