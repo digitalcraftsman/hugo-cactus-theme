@@ -1,0 +1,31 @@
+# Site settings
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Hugo Cactus Theme"
+theme = "hugo-cactus-theme"
+
+
+[permalinks]
+  	posts =  "/:year/:slug/"
+
+
+[params]
+	name = "Mr. Hugo"
+	description = "Description about your website"
+	bio = "Blogger - Programmer - Gopher"
+	# Enter optionally your social network accounts
+	twitter = "Your twitter account"
+	disqusShortname = "your_disqus_shortname"
+
+	# Navigation links
+	home = ""
+	about = ""
+	subscribe = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
