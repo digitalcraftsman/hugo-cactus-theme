@@ -9,7 +9,7 @@
                 <h3>{{ with .Site.Params.subtitle404 }}{{ . }}{{ else }}The content you're looking for doesn't seem to exist.{{ end }}</h3>
             </header>
 
-            {{ partial "archive.html" . }}
+            {{ partial "latest-posts.html" . }}
         </article>
 
         {{ partial "footer.html" . }}
