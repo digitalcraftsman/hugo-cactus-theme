@@ -1,5 +1,5 @@
 <ul id="post-list" class="archive readmore">
-    <h3>Read more</h3>
+    <h3>{{ with .Site.Params.readMore }}{{ . }}{{ else }}Read more{{ end }}</h3>
     {{ range first 10 .Site.Pages }}
     {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
         {{ if ne $url "about/" }}
