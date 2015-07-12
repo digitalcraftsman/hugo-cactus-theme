@@ -4,7 +4,7 @@
         {{ if ne $url "about/" }}
             <li>
                 <a href='{{ .Permalink }}'><aside class="dates">{{ .Date.Format "Jan 2" }}</aside></a>
-                <a href='{{ .Permalink }}'>{{ .Title }} <h2>{{ .Description }}</h2></a>
+                <a href='{{ .Permalink }}'>{{ .Title }} <h2>{{ .Description | markdownify }}</h2></a>
             </li>
         {{ end }}
     {{ end }}
