@@ -1,9 +1,8 @@
 # Site settings
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://replace-this-with-your-domain.com/"
 languageCode = "en-us"
 title = "Hugo Cactus Theme"
 theme = "hugo-cactus-theme"
-
 
 [permalinks]
   	posts =  "/:year/:slug/"
@@ -11,11 +10,15 @@ theme = "hugo-cactus-theme"
 
 [params]
 	name = "Mr. Hugo"
-	description = "Description about your website"
+	description = "Describe your website"
 	bio = "Blogger - Programmer - Gopher"
-	# Enter optionally your social network accounts
-	twitter = "Your twitter account"
-	disqusShortname = "your_disqus_shortname"
+	# Enter optionally your twitter account
+	twitter = "Your Twitter account"
+	# Disable comments by leaving disqusShortname empty
+	disqusShortname = "spf13"
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
 
 	# Navigation links
 	home = ""
@@ -26,6 +29,9 @@ theme = "hugo-cactus-theme"
 	newerPosts = ""
 	readMore = ""
 	copyright = ""
+	# Sharing options in posts
+	tweet = ""
+	share = ""
 	# 404 page
 	title404 = ""
 	subtitle404 = ""
