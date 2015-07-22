@@ -4,10 +4,6 @@ languageCode = "en-us"
 title = "Hugo Cactus Theme"
 theme = "hugo-cactus-theme"
 
-[permalinks]
-  	posts =  "/:year/:slug/"
-
-
 [params]
 	name = "Mr. Hugo"
 	description = "Describe your website"
