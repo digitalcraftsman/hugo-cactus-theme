@@ -26,7 +26,8 @@ theme = "hugo-cactus-theme"
 	newerPosts = ""
 	readMore = ""
 	copyright = ""
-	# Sharing options in posts
+	# Sharing options and author information in posts
+	aboutAuthor = "I'm an enthusiastic gopher."
 	tweet = ""
 	share = ""
 	# 404 page
