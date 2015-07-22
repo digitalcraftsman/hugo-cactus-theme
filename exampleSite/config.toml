@@ -12,6 +12,7 @@ theme = "hugo-cactus-theme"
 	twitter = "Your Twitter account"
 	# Disable comments by leaving disqusShortname empty
 	disqusShortname = "spf13"
+	enableRSS = true
 
 	# The variables below are optionally too and can be used to
 	# translate or customize each string of the theme.
