@@ -1,11 +1,11 @@
-name = "Hugo Cactus Theme"
+name = "Cactus"
 license = "MIT"
 licenselink = "//github.com/digitalcraftsman/hugo-cactus-theme/blob/master/License.md"
 description = "A minimalistic and responsive theme for bloggers."
 homepage = "//github.com/digitalcraftsman/hugo-cactus-theme"
-tags = ["blog"]
-features = ["disqus", "rss", "syntax highlighting", "pagination", "sharing options"]
-min_version = 0.13
+tags = ["blog", "disqus", "google analytics", "rss", "syntax highlighting"]
+features = ["disqus", "google analytics", "rss", "syntax highlighting", "blog", "pagination", "<sharing options"]
+min_version = 0.14
 
 [author]
   name = "digitalcraftsman"
