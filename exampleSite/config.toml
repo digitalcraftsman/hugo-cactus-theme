@@ -12,6 +12,8 @@ theme = "hugo-cactus-theme"
 	twitter = "Your Twitter account"
 	# Disable comments by leaving disqusShortname empty
 	disqusShortname = "spf13"
+	# Enter your tracking code to enable Google Analytics
+	googleAnalytics = ""
 	enableRSS = true
 
 	# The variables below are optionally too and can be used to
