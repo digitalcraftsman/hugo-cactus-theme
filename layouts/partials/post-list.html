@@ -1,6 +1,6 @@
 <ul id="post-list">
     {{ range .Paginator.Pages }}
-    {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+    {{ $url := replace .Permalink .Site.BaseURL "" }}
         {{ if ne $url "about/" }}
             <li>
                 <a href='{{ .Permalink }}'><aside class="dates">{{ .Date.Format "Jan 2" }}</aside></a>
