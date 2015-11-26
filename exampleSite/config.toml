@@ -5,6 +5,8 @@ title = "Hugo Cactus Theme"
 theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
+# Disable comments by leaving disqusShortname empty
+disqusShortname = "spf13"
 
 [params]
 	name = "Mr. Hugo"
@@ -12,8 +14,6 @@ googleAnalytics = ""
 	bio = "Blogger - Programmer - Gopher"
 	# Enter optionally your twitter account
 	twitter = "Your Twitter account"
-	# Disable comments by leaving disqusShortname empty
-	disqusShortname = "spf13"
 	enableRSS = true
 
 	# The variables below are optionally too and can be used to
