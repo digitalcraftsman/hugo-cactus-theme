@@ -5,7 +5,7 @@ description = "A minimalistic and responsive theme for bloggers."
 homepage = "//github.com/digitalcraftsman/hugo-cactus-theme"
 tags = ["blog", "disqus", "google analytics", "rss", "syntax highlighting"]
 features = ["disqus", "google analytics", "rss", "syntax highlighting", "blog", "pagination", "<sharing options"]
-min_version = 0.14
+min_version = 0.15
 
 [author]
   name = "digitalcraftsman"
