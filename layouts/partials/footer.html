@@ -1,7 +1,13 @@
 <footer id="footer">
-    <p class="small">{{ with .Site.Params.copyright }}
-        {{ . | markdownify }}
+    {{ if .Site.Social }}
+        {{ partial "social.html" . }}
     {{ else }}
-        © Copyright {{.Now.Format "2006"}} {{ .Site.Params.name }}
-    {{ end }}</p>
+        <p class="small">
+        {{ with .Site.Params.copyright }}
+            {{ . | markdownify }}
+        {{ else }}
+            © Copyright {{.Now.Format "2006"}} {{ .Site.Params.name }}
+        {{ end }}
+        </p>
+    {{ end }}
 </footer>

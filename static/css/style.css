@@ -622,6 +622,12 @@ h2.month {
   margin-left: 2px;
 }
 
+#social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 /* Media Queries */
 @media screen and (max-width: 540px) {
 	#wrapper { padding:20px 20px 20px 20px;}

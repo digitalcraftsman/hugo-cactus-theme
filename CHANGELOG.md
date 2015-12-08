@@ -1,5 +1,10 @@
 # Changelog
 
+### 2015/7/12
+#### Social link icons
+
+Social links with icons can be enabled replacing the copyright field in footer. Configure the style and links in `config.toml`.
+
 ### 2015/26/11
 
 Hugo v0.15 is required in order to run the theme with the changes listed below:

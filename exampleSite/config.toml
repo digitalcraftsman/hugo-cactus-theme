@@ -35,3 +35,14 @@ disqusShortname = "spf13"
 	# 404 page
 	title404 = ""
 	subtitle404 = ""
+
+    # Social icons style - circle, rounded, or empty
+    socialIconStyle = "circle"
+
+# Add additional social link entries underneath
+[social]
+    twitter = "http://www.twitter.com/"
+    facebook = "http://www.facebook.com/"
+    github = "http://www.github.com/"
+    dribble = "http://www.dribbble.com/"
+
