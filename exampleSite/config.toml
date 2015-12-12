@@ -41,8 +41,8 @@ disqusShortname = "spf13"
 
 # Add additional social link entries underneath
 [social]
-    twitter = "http://www.twitter.com/"
-    facebook = "http://www.facebook.com/"
-    github = "http://www.github.com/"
-    dribble = "http://www.dribbble.com/"
+    twitter  = "https://www.twitter.com/"
+    facebook = "https://www.facebook.com/"
+    github   = "https://www.github.com/"
+    dribble  = "https://www.dribbble.com/"
 
