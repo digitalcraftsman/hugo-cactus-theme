@@ -276,6 +276,8 @@ p.small {
 	font-size: 14px;
 	line-height: 1.5;
 	display: block;
+	text-align: center;
+	margin-top: 20px;
 }
 
 blockquote {
