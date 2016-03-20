@@ -5,17 +5,6 @@ Cactus is a minimalistic theme for bloggers based on the default theme of the sa
 
 ![Screenshot](https://github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/images/screenshot.png)
 
-## Contents
-
-- [Installation](#installation)
-- [The config file](#the-config-file)
-- [About page](#about-page)
-- [Disqus](#disqus)
-- [Nearly finished](#nearly-finished)
-- [Contributing](#contributing)
-- [License](#license)
-- [Annotations](#annotations)
-
 
 ## Installation
 
@@ -58,13 +47,18 @@ Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your b
 
 Did you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](//github.com/digitalcraftsman/hugo-cactus-theme/issues) to let me know. Or make directly a [pull request](//github.com/digitalcraftsman/hugo-cactus-theme/pulls).
 
+Please create a separate branch for your pull request.
+
 
 ## License
 
 This theme is released under the MIT license. For more information read the [License](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/LICENSE.md).
 
 
-## Annotations
+## Acknowledgements
 
-Thanks to [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
+Thanks to 
+
+- [Nick Balestra](//github.com/nickbalestra/kactus) for creating the original theme
+- [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
 
