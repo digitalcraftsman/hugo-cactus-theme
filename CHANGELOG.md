@@ -2,6 +2,14 @@
 
 ### 2016/04/01
 
+#### Fontawesome as option for social icons in footer
+
+You can now use Fontawesome as alternative to the Mono social icons. Look [here](https://github.com/digitalcraftsman/hugo-cactus-theme/tree/dev#social-link-icons) for more instructions.
+
+[Show me the diff](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/79e5435d6be25ae882ab5ae8455f17834f109a32)
+
+#### Hide pages
+
 Pages can now be hidden by adding `hidden = true` to the frontmatter. The pages are still built but they will not appear in the post in on the homepage.
 
 [Show me the diff](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/cf93e42859280b04703cd6ca96062db9a4adb65e)
