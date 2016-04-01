@@ -10,7 +10,6 @@ Cactus is a minimalistic theme for bloggers based on the default theme of the sa
 
 Inside the folder of your Hugo site run:
 
-    $ mkdir themes
     $ cd themes
     $ git clone https://github.com/digitalcraftsman/hugo-cactus-theme.git
 
@@ -25,6 +24,10 @@ To use it, copy the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-th
 ## About page
 
 Use the about page to introduce yourself to your visitors. You can customize the content as you like in the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml). Furthermore, you should replace the [avatar placeholder](//github.com/digitalcraftsman/hugo-cactus-theme/blob/master/static/images/avatar.png) with a great image of yourself.
+
+## Hide pages
+
+Pages can be hidden and don't appear in the post list on the homepage if you add the variable `hidden = true` to the frontmatter. This allows you to link from elsewhere, i.e. just the menu. 
 
 ## Disqus
 
@@ -52,7 +55,7 @@ Please create a separate branch for your pull request.
 
 ## License
 
-This theme is released under the MIT license. For more information read the [License](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/LICENSE.md).
+This theme is released under the MIT license. For more information read the [license](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/LICENSE.md).
 
 
 ## Acknowledgements
