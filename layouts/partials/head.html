@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<html {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
-		<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+		{{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+		{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 		{{ .Hugo.Generator }}
-		<title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+		<title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 		<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.css">
