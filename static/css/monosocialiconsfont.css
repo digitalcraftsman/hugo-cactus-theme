@@ -23,14 +23,3 @@
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
 }
-
-a.symbol {
-    color: #cdd4da;
-    font-size: 2rem;
-    text-decoration: none;
-    margin-right: 0.3rem;
-}
-
-a.symbol:hover {
-    color: #BCD4DA;
-}

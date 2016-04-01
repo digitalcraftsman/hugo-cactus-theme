@@ -9,7 +9,7 @@ googleAnalytics = ""
 disqusShortname = "spf13"
 
 [params]
-	name = "Mr. Hugo"
+	name = "John Doe"
 	description = "Describe your website"
 	bio = "Blogger - Programmer - Gopher"
 	# Enter optionally your twitter account
@@ -36,7 +36,9 @@ disqusShortname = "spf13"
 	title404 = ""
 	subtitle404 = ""
 
-    # Social icons style - circle, rounded, or empty
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "mono-social"
+    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
     socialIconStyle = "circle"
 
 # Add additional social link entries underneath
@@ -45,4 +47,3 @@ disqusShortname = "spf13"
     facebook = "https://www.facebook.com/"
     github   = "https://www.github.com/"
     dribble  = "https://www.dribbble.com/"
-

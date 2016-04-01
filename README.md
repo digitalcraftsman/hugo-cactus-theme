@@ -35,7 +35,12 @@ This theme features a comment system powered by Disqus too. Just add your Disqus
 
 ## Social link icons
 
-You can add a social link panel in the footer by adding entries to the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml). The icons uses fonts from the [mono social icons](https://github.com/drinchev/monosocialiconsfont) project. There are 3 styles of icon - circle, rounded, or default(empty).
+You can add a social link panel in the footer by adding entries to the `social` block in the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml). You can choose between two icon fonts:
+
+- [Font awesome](https://fortawesome.github.io/Font-Awesome/) or
+- [Mono social icons](https://github.com/drinchev/monosocialiconsfont)
+
+Assign either `font-awesome` or `mono-social` to the `iconFont` variable. The Mono social icons offer three styles of icons: -circle, rounded, or default (empty).
 
 ## Nearly finished
 
