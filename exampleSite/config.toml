@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://replace-this-with-your-domain.com/"
+baseurl = "https://example.org"
 languageCode = "en-us"
 title = "Hugo Cactus Theme"
 theme = "hugo-cactus-theme"
