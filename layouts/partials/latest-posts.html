@@ -1,6 +1,8 @@
 <ul id="post-list" class="archive readmore">
     <h3>{{ with .Site.Params.readMore }}{{ . }}{{ else }}Read more{{ end }}</h3>
-    {{ range first 10 (where .Site.Pages "Params.hidden" "ne" "true") }}
+
+    {{ $pages := where .Site.Pages "Kind" "page" }}
+    {{ range first 10 (where $pages "Params.hidden" "ne" "true") }}
     {{ $url := replace .Permalink .Site.BaseURL "" }}
         {{ if and (ne $url "about/") }}
         <li>
