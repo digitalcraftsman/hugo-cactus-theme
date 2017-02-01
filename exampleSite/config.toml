@@ -17,7 +17,8 @@ disqusShortname = "spf13"
 	twitter = "Your Twitter account"
 	enableRSS = true
 
-	# Add custom assets with their paths relative to the static folder
+	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
+	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
 	customCSS = []
 	customJS  = []
 
