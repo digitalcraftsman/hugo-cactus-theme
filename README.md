@@ -21,6 +21,8 @@ Take a look inside the [`exampleSite`](//github.com/digitalcraftsman/hugo-cactus
 
 To use it, copy the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change strings as you like to customize your website.
 
+Make sure to update the `themesDir` property in the config file to point to your site's theme folder otherwise an error will be thrown indicating the themes folder is unable to be found.
+
 ## About page
 
 Use the about page to introduce yourself to your visitors. You can customize the content as you like in the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml). Furthermore, you should replace the [avatar placeholder](//github.com/digitalcraftsman/hugo-cactus-theme/blob/master/static/images/avatar.png) with a great image of yourself.
@@ -69,4 +71,3 @@ Thanks to
 
 - [Nick Balestra](//github.com/nickbalestra/kactus) for creating the original theme
 - [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
-
