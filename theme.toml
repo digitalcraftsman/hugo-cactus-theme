@@ -1,6 +1,6 @@
 name = "Cactus"
 license = "MIT"
-licenselink = "//github.com/digitalcraftsman/hugo-cactus-theme/blob/master/License.md"
+licenselink = "//github.com/digitalcraftsman/hugo-cactus-theme/blob/master/LICENSE.md"
 description = "A minimalistic and responsive theme for bloggers."
 homepage = "//github.com/digitalcraftsman/hugo-cactus-theme"
 tags = ["blog", "disqus", "google analytics", "rss", "syntax highlighting"]
