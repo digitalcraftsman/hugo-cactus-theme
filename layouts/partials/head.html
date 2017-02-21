@@ -29,4 +29,8 @@
 	    {{ template "_internal/google_news.html" . }}
 	    {{ template "_internal/schema.html" . }}
 	    {{ template "_internal/twitter_cards.html" . }}
+
+		{{ if .Site.Params.openGraph }}
+			{{ partial "open_graph.html" . }}
+		{{end}}
 	</head>
