@@ -1,11 +1,10 @@
 <nav class="main-nav">
-	{{ $url := replace .Permalink .Site.BaseURL "" }}
 	{{ if not .IsHome }}
 		<a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
 	{{ end }}
 
-	{{ if ne $url "about/" }}
-		<a href='{{ .Site.BaseURL }}about'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
+	{{ if .Type | ne "about" }}
+		<a href="{{ "about" | absURL }}">{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
 	{{ end }}
 
 	{{ if .Site.Params.enableRSS }}
