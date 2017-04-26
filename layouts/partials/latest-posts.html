@@ -1,5 +1,6 @@
 <ul id="post-list" class="archive readmore">
-    <h3>{{ with .Site.Params.readMore }}{{ . }}{{ else }}Read more{{ end }}</h3>
+    <h3>{{ .Site.Params.readMore | default "Read more" }}</h3>
+
     {{ $kind := where .Site.RegularPages "Section" "!=" "" }}
     {{ $othr := where $kind "URL" "!=" .URL }}
     {{ range first 10 $othr }}
