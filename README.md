@@ -25,10 +25,6 @@ To use it, copy the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-th
 
 Use the about page to introduce yourself to your visitors. You can customize the content as you like in the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml). Furthermore, you should replace the [avatar placeholder](//github.com/digitalcraftsman/hugo-cactus-theme/blob/master/static/images/avatar.png) with a great image of yourself.
 
-## Hide pages
-
-Pages can be hidden and don't appear in the post list on the homepage if you add the variable `hidden = true` to the frontmatter. This allows you to link from elsewhere, i.e. just the menu. 
-
 ## Disqus
 
 This theme features a comment system powered by Disqus too. Just add your Disqus-shortname to the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml) and let readers respond to your blog posts.
@@ -44,7 +40,7 @@ Assign either `font-awesome` or `mono-social` to the `iconFont` variable. The Mo
 
 ## Nearly finished
 
-In order to see your site in action, run Hugo's built-in local server. 
+In order to see your site in action, run Hugo's built-in local server.
 
     $ hugo server
 
@@ -65,8 +61,7 @@ This theme is released under the MIT license. For more information read the [lic
 
 ## Acknowledgements
 
-Thanks to 
+Thanks to
 
 - [Nick Balestra](//github.com/nickbalestra/kactus) for creating the original theme
 - [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
-
