@@ -1,15 +1,8 @@
-	{{ partial "head.html" . }}
-	<body>
-    {{ partial "nav.html" . }}
+{{ define "profile" }}
+	{{ partial "profile.html" . }}
+{{ end }}
 
-    {{ partial "profile.html" . }}
-
-    <section id="wrapper" class="home">
-        {{ partial "post-list.html"  . }}
-        {{ partial "pagination.html" . }}
-        {{ partial "footer.html"     . }}
-    </section>
-
-    {{ partial "js.html" . }}
-    </body>
-</html>
+{{ define "main" }}
+	{{ partial "post-list.html"  . }}
+	{{ partial "pagination.html" . }}
+{{ end }}

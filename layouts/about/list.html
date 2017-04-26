@@ -1,13 +1,5 @@
-    {{ partial "head.html" . }}
-	<body>
-    {{ partial "nav.html" . }}
+{{ define "profile" }}
     {{ partial "profile.html" . }}
+{{ end }}
 
-    <section id="wrapper" class="home">
-        {{ .Content }}
-        {{ partial "footer.html" . }}
-    </section>
-
-    {{ partial "js.html" . }}
-    </body>
-</html>
+{{ define "main" }}{{ .Content }}{{ end }}
