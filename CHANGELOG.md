@@ -1,17 +1,14 @@
 # Changelog
 
-
-## Release v1.1
+## Release v1.1 - 26th April 2017
 
 *In the future new additions and changes will be assigned to version numbers rather than dates.* This allows you to track changes in a better fashion. The state of this theme before this release has been assigned to v1.0.
 
-**Some changes and additions listed below require Hugo v0.19 or higher.** Consider to update Hugo to a newer as well if necessary.
+**Some changes and additions listed below require Hugo v0.20 or higher.** Consider to update Hugo to a newer as well if necessary.
 
 ### Fixes:
 
 34f8cf2 fixes display issues of the about page that occured in Hugo v0.18 and higher due to the way how Hugo treats sites as a page of different kinds. **It's required to rename `content/about/index.md` to `content/about/_index.md`**.
-
-
 
 ### Improvements
 
@@ -19,11 +16,12 @@
 - 9b358a9 uses block templates to reduce redundancy
 - dd67ac4 adds support for linking pages in the main menu
 
-
 ### Deprecations
 
-- fa3c87d replaces .Now which was deprecated in Hugo
+- fa3c87d replaces .Now which was deprecated in Hugo v0.19
 - c618828 deprecates the `params.about` config option
+- 1b6b863 deprecates the option to hide single pages with the `hidden = true` front matter option. Use `draft = true` instead
+
 
 ## 4th January 2016
 
