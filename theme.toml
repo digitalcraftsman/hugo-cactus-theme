@@ -1,10 +1,10 @@
 name = "Cactus"
 license = "MIT"
-licenselink = "//github.com/digitalcraftsman/hugo-cactus-theme/blob/master/LICENSE.md"
+licenselink = "https://github.com/digitalcraftsman/hugo-cactus-theme/blob/master/License.md"
 description = "A minimalistic and responsive theme for bloggers."
-homepage = "//github.com/digitalcraftsman/hugo-cactus-theme"
+homepage = "https://github.com/digitalcraftsman/hugo-cactus-theme"
 tags = ["blog", "disqus", "google analytics", "rss", "syntax highlighting"]
-features = ["disqus", "google analytics", "rss", "syntax highlighting", "blog", "pagination", "<sharing options"]
+features = ["disqus", "google analytics", "rss", "syntax highlighting", "blog", "pagination", "sharing options"]
 min_version = 0.20
 
 [author]
@@ -14,11 +14,11 @@ min_version = 0.20
 [[original]]
   # Ported the stardard theme of the Cactus for Mac static site generator to Jekyll
   name = "Nick Balestra"
-  homepage = "//nick.balestra.ch/"
-  repo = "//github.com/nickbalestra/kactus"
+  homepage = "http://nick.balestra.ch/"
+  repo = "https://github.com/nickbalestra/kactus"
 
 [[original]]
   # Original creators of the stardard theme for the Cactus for Mac static site generator
   name = "Cactus for Mac authors"
-  homepage = "//cactusformac.com"
-  repo = "github.com/koenbok/Cactus"
+  homepage = "http://cactusformac.com"
+  repo = "https://github.com/koenbok/Cactus"

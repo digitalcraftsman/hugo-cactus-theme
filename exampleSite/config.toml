@@ -12,7 +12,7 @@ disqusShortname = "spf13"
 [params]
 	name = "John Doe"
 	description = "Describe your website"
-	bio = "Blogger - Programmer - Gopher"
+	bio = "Blogger & Programmer"
 	# Enter optionally your twitter account
 	twitter = "Your Twitter account"
 	enableRSS = true
@@ -27,7 +27,6 @@ disqusShortname = "spf13"
 
 	# Navigation links
 	home = ""
-	about = ""
 	subscribe = ""
 	# Pagination links
 	olderPosts = ""
@@ -35,7 +34,7 @@ disqusShortname = "spf13"
 	readMore = ""
 	copyright = ""
 	# Sharing options and author information in posts
-	aboutAuthor = "I'm an enthusiastic gopher."
+	aboutAuthor = "I'm an blogger."
 	tweet = ""
 	share = ""
 	# 404 page

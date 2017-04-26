@@ -1,14 +1,13 @@
 <nav class="main-nav">
-	{{ $url := replace .Permalink .Site.BaseURL "" }}
 	{{ if not .IsHome }}
-		<a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
+		<a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>{{ .Site.Params.home | default "Home" }}</a>
 	{{ end }}
 
-	{{ if ne $url "about/" }}
-		<a href='{{ .Site.BaseURL }}about'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
-	{{ end }}
+	{{ range .Site.Menus.main }}
+ 		<a href='{{ .URL }}'>{{ .Name }}</a>
+  	{{ end }}
 
 	{{ if .Site.Params.enableRSS }}
-	<a class="cta" href="{{ .Site.RSSLink }}">{{ with .Site.Params.subscribe }}{{ . }}{{ else }}Subscribe{{ end }}</a>
+		<a class="cta" href="{{ .Site.RSSLink }}">{{ .Site.Params.subscribe | default "Subscribe" }}</a>
 	{{ end }}
 </nav>
