@@ -71,7 +71,7 @@ h2 {
 
 .profile #wrapper {
 	padding: 100px 40px 0px;
-	max-width: 600px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -137,13 +137,13 @@ nav.main-nav a.cta {
 }
 
 #wrapper {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 60px 40px 100px 40px;
 }
 
 #wrapper.home {
-	max-width: 600px;
+	max-width: 800px;
 	margin: 0 auto;
 	padding: 0px 40px 20px 40px;
 }
