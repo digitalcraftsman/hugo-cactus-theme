@@ -225,7 +225,7 @@ em, i { font-style: italic; }
 }
 
 .post h1 {
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	color: #222;
 	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
 }
@@ -236,6 +236,10 @@ em, i { font-style: italic; }
 	  color: #111;
 }
 
+.post h2.subtitle {
+	font: italic 19px/1.3em Georgia,serif;
+	color: #bbb;
+}
 
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
