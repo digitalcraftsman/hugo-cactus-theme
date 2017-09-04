@@ -12,15 +12,15 @@
 
 ### Improvements
 
-- 931eb53 improves the generation URLs and linkage of pages
-- 9b358a9 uses block templates to reduce redundancy
-- dd67ac4 adds support for linking pages in the main menu
+- [931eb53](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/931eb53) improves the generation URLs and linkage of pages
+- [9b358a9](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/9b358a9) uses block templates to reduce redundancy
+- [dd67ac4](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/dd67ac4) adds support for linking pages in the main menu
 
 ### Deprecations
 
-- fa3c87d replaces .Now which was deprecated in Hugo v0.19
-- c618828 deprecates the `params.about` config option
-- 1b6b863 deprecates the option to hide single pages with the `hidden = true` front matter option. Use `draft = true` instead
+- [fa3c87d](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/fa3c87d) replaces .Now which was deprecated in Hugo v0.19
+- [c618828](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/c618828) deprecates the `params.about` config option
+- [1b6b863](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/1b6b863) deprecates the option to hide single pages with the `hidden = true` front matter option. Use `draft = true` instead
 
 
 ## 4th January 2016
