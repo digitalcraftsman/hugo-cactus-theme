@@ -1,6 +1,6 @@
 # Cactus Theme
 
-Cactus is a minimalistic theme for bloggers based on the default theme of the same-named [Cactus static site generator](//github.com/koenbok/Cactus) written in Python and [Nick Balestra](//github.com/nickbalestra/kactus)'s Jekyll port. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, a customizable about page, support for RSS feeds, syntax highlighting for source code and sharing options for blog posts.
+Cactus is a minimalistic theme for bloggers based on the default theme of the same-named [Cactus static site generator](//github.com/koenbok/Cactus) written in Python and [Nick Balestra](//github.com/nickbalestra/kactus)'s Jekyll port. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, a customizable about page, support for RSS feeds, syntax highlighting for source code, and sharing options for blog posts.
 
 
 ![Screenshot](https://raw.githubusercontent.com/digitalcraftsman/hugo-cactus-theme/dev/images/screenshot.png)
@@ -8,20 +8,20 @@ Cactus is a minimalistic theme for bloggers based on the default theme of the sa
 
 ## Installation
 
-Inside the folder of your Hugo site run:
+Inside the folder of your Hugo site, run:
 
     $ cd themes
     $ git clone https://github.com/digitalcraftsman/hugo-cactus-theme.git
 
-For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
+For more information, please read Hugo's official [setup guide](//gohugo.io/overview/installing/).
 
 ### The config file
 
 Take a look inside the [`exampleSite`](//github.com/digitalcraftsman/hugo-cactus-theme/tree/dev/exampleSite) folder of this theme. You'll find a file called [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml).
 
-To use it, copy the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change strings as you like to customize your website.
+To use it, copy the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml) file to the root folder of your Hugo site. Feel free to change the strings as you like to customize your website.
 
-Make sure to update the `themesDir` property in the config file to point to your site's theme folder otherwise an error will be thrown indicating the themes folder is unable to be found.
+Make sure to update the `themesDir` property in the config file to point to your site's theme folder, otherwise an error will be thrown indicating the themes folder is unable to be found.
 
 ## About page
 
@@ -38,11 +38,11 @@ You can add a social link panel in the footer by adding entries to the `social` 
 - [Font awesome](https://fortawesome.github.io/Font-Awesome/) or
 - [Mono social icons](https://github.com/drinchev/monosocialiconsfont)
 
-Assign either `font-awesome` or `mono-social` to the `iconFont` variable. The Mono social icons offer three styles of icons: -circle, rounded, or default (empty).
+Assign either `font-awesome` or `mono-social` to the `iconFont` variable. The Mono social icons offer three styles of icons: circle, rounded, or default (empty).
 
 ## Nearly finished
 
-In order to see your site in action, run Hugo's built-in local server.
+To see your site in action, run Hugo's built-in local server.
 
     $ hugo server
 
@@ -51,7 +51,7 @@ Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your b
 
 ## Contributing
 
-Did you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](//github.com/digitalcraftsman/hugo-cactus-theme/issues) to let me know. Or make directly a [pull request](//github.com/digitalcraftsman/hugo-cactus-theme/pulls).
+Found a bug or got an idea for a new feature? Feel free to use the [issue tracker](//github.com/digitalcraftsman/hugo-cactus-theme/issues) to let me know. Or directly make a [pull request](//github.com/digitalcraftsman/hugo-cactus-theme/pulls).
 
 Please create a separate branch for your pull request.
 
