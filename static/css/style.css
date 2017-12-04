@@ -221,11 +221,14 @@ em, i { font-style: italic; }
 
 .post header {
 	text-align:center;
+}
 
+.post header h1 {
+	margin-bottom: 0;
 }
 
 .post h1 {
-	margin-bottom: 0px;
+	margin-bottom: 1em;
 	color: #222;
 	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
 }
