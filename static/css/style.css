@@ -180,10 +180,8 @@ a,
 	transition: all 0.15s ease;
 }
 
-ul, ol 	{ margin:0; padding:0; margin-bottom: 20px; }
-ul { list-style-type:circle; }
-ol { list-style: decimal; }
-li	{  list-style-position:inside; }
+ol 	{ margin: 0 2em 1em 2em; padding: 0; list-style-type: decimal; }
+ul 	{ margin: 0 2em 1em 2em; padding: 0; list-style-type: circle; }
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
