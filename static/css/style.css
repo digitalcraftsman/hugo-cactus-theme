@@ -661,7 +661,7 @@ a.symbol:hover {
     color: #BCD4DA;
 }
 
-code { 
+p code { 
 	font-family:Menlo, Monaco, Courier; 
 	background-color:#EEE; font-size:14px; 
 	padding: 4px; 
