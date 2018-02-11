@@ -184,6 +184,7 @@ ul, ol 	{ margin:0; padding:0; margin-bottom: 20px; }
 ul { list-style-type:circle; }
 ol { list-style: decimal; }
 li	{  list-style-position:inside; }
+li ol, li ul { margin-left: 20px; }
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
