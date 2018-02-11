@@ -661,9 +661,9 @@ a.symbol:hover {
     color: #BCD4DA;
 }
 
-code { 
-	font-family:Menlo, Monaco, Courier; 
-	background-color:#EEE; font-size:14px; 
-	padding: 4px; 
+code {
+	font-family:Menlo, Monaco, Courier;
+	font-size:14px;
+	padding: 4px;
 	font-weight: 600;
 }
