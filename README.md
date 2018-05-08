@@ -15,11 +15,19 @@ Inside the folder of your Hugo site, run:
 
 For more information, please read Hugo's official [setup guide](//gohugo.io/overview/installing/).
 
-### The config file
+### Configuration
 
 Take a look inside the [`exampleSite`](//github.com/digitalcraftsman/hugo-cactus-theme/tree/dev/exampleSite) folder of this theme. You'll find a file called [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml).
 
 To use it, copy the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml) file to the root folder of your Hugo site. Feel free to change the strings as you like to customize your website.
+
+Required site params are in the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml) are:
+    
+    [params]
+        name = "Your Name"
+        bio = "This is my blog. Thanks"
+       
+Failure to set these params will result in a hugo build error.
 
 Make sure to update the `themesDir` property in the config file to point to your site's theme folder, otherwise an error will be thrown indicating the themes folder is unable to be found.
 
