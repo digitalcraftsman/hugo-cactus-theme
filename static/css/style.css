@@ -183,7 +183,7 @@ a,
 ul, ol 	{ margin:0; padding:0; margin-bottom: 20px; }
 ul { list-style-type:circle; }
 ol { list-style: decimal; }
-li { list-style-position:outside; margin-left: 15px; }
+li { list-style-position:outside; margin-left: 20px; }
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
