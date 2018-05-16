@@ -21,7 +21,7 @@ Take a look inside the [`exampleSite`](//github.com/digitalcraftsman/hugo-cactus
 
 To use it, copy the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml) file to the root folder of your Hugo site. Feel free to change the strings as you like to customize your website.
 
-Required site params are in the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml) are:
+Required site params in the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml) are:
     
     [params]
         name = "Your Name"
