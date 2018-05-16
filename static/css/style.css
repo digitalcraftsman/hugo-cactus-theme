@@ -654,9 +654,9 @@ h2.month {
 
 a.symbol {
     color: #cdd4da;
-    font-size: 2rem;
+    font-size: 4rem;
     text-decoration: none;
-    margin-right: 0.3rem;
+    margin: 0.5rem;
 }
 
 a.symbol:hover {
