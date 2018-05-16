@@ -6,6 +6,9 @@
             </a>
             <h1>{{ .Site.Params.name }}</h1>
             <h2>{{ .Site.Params.bio | markdownify }}</h2>
+                {{ if .Site.Social }}
+                    {{ partial "social.html" . }}
+                {{ end }}
         </header>
     </section>
 </div>
