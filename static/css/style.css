@@ -650,6 +650,7 @@ h2.month {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 25px 0;
 }
 
 a.symbol {
