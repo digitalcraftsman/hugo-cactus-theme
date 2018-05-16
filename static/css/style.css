@@ -656,7 +656,7 @@ a.symbol {
     color: #cdd4da;
     font-size: 4rem;
     text-decoration: none;
-    margin: 0.5rem;
+    margin: 0 0.5rem 0;
 }
 
 a.symbol:hover {
