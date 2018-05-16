@@ -83,8 +83,8 @@ h2 {
 
 .profile #avatar {
 	display: inline-block;
-	width: 122px;
-	height: 122px;
+	width: 200px;
+	height: 200px;
 	border-radius: 100%;
 	margin-bottom: 20px;
 }
