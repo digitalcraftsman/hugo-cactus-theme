@@ -9,7 +9,7 @@
         {{ with .Params.tags }}
         {{ if ge (len .) 1 }}
             {{ range . }}
-                <a href="{{ printf "tags/%s" (. | urlize) | absURL }}">{{ . }}</a>
+                <a href="{{ printf "tags/%s" (. | urlize) | relURL }}">{{ . }}</a>
             {{ end }}
         {{ end }}
         {{ end}}
@@ -22,7 +22,7 @@
 
 <footer id="post-meta" class="clearfix">
     {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ end }}
-    <img class="avatar" src="{{ "images/avatar.png" | absURL }}">
+    <img class="avatar" src="{{ "images/avatar.png" | relURL }}">
     <div>
         <span class="dark">{{ .Site.Params.name }}</span>
         <span>{{ .Site.Params.aboutAuthor }}</span>

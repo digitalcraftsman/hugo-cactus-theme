@@ -5,17 +5,17 @@
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ .Hugo.Generator }}
 <title>{{ .Title }}{{ if .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
-<link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}">
-<link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
-<link rel="stylesheet" href="{{ "css/highlight.css" | absURL }}">
+<link rel="shortcut icon" href="{{ "images/favicon.ico" | relURL }}">
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/highlight.css" | relURL }}">
 {{ range .Site.Params.customCSS }}
-<link rel="stylesheet" href="{{ . | absURL }}">
+<link rel="stylesheet" href="{{ . | relURL }}">
 {{ end }}
 
 {{ if eq .Site.Params.iconFont "font-awesome" }}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 {{ else }}
-<link rel="stylesheet" href="{{ "css/monosocialiconsfont.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/monosocialiconsfont.css" | relURL }}">
 {{ end }}
 
 {{ if .Site.Params.enableRSS }}
