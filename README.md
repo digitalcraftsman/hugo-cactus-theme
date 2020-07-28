@@ -2,6 +2,9 @@
 
 Cactus is a minimalistic theme for bloggers based on the default theme of the same-named [Cactus static site generator](//github.com/koenbok/Cactus) written in Python and [Nick Balestra](//github.com/nickbalestra/kactus)'s Jekyll port. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, a customizable about page, support for RSS feeds, syntax highlighting for source code, and sharing options for blog posts.
 
+### Please note that this theme is no longer maintained. 
+*A fork of this theme can be found at [github.com/nodejh/hugo-theme-cactus-plus](https://github.com/nodejh/hugo-theme-cactus-plus)*
+
 
 ![Screenshot](https://raw.githubusercontent.com/digitalcraftsman/hugo-cactus-theme/dev/images/screenshot.png)
 
