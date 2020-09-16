@@ -7,7 +7,11 @@
 <title>{{ .Title }}{{ if .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
 <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}">
 <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+
+{{ if .Site.Params.disableHighlight }}
+{{ else }}
 <link rel="stylesheet" href="{{ "css/highlight.css" | absURL }}">
+{{ end }}
 {{ range .Site.Params.customCSS }}
 <link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}

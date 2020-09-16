@@ -1,7 +1,10 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="{{ "js/main.js" | absURL }}"></script>
+{{ if .Site.Params.disableHighlight }}
+{{ else }}
 <script src="{{ "js/highlight.js" | absURL }}"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+{{ end }}
 
 {{ range .Site.Params.customJS }}
 <script src="{{ . | absURL }}"></script>
